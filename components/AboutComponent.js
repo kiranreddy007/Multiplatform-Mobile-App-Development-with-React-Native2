@@ -22,7 +22,6 @@ function CorporateLeadership(props) {
             return(
                 <ListItem
                     key={index}
-
                     title={item.name}
                     titleStyle={{fontWeight: 'bold'}}
                     subtitle={item.description}
